@@ -7,6 +7,15 @@
   package: "com.nana.autoteksterbaru"
   tagline: "Caption gen z, status kece & font estetik unik buat WA. 100% offline."
   status: live
-  version: "1.0.0"
+  version: "26.08.15"
   slug: "autoteks-wa-keren"
-  playstore: "#"
+  playstore: "https://play.google.com/store/apps/details?id=com.nana.autoteksterbaru"
+  
+- name: "Username Generator Z"
+  package: "com.belladyna.hurufgaul"
+  tagline: "Create aesthetic usernames, cool nicknames & gaming IDs in seconds."
+  status: live
+  version: "26.08.16"
+  slug: "username-generator-z"
+  playstore: "https://play.google.com/store/apps/details?id=com.belladyna.hurufgaul"
+
