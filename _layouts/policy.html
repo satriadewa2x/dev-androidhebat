@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="policy">
+  <div class="file-tab">
+    <span class="file-dot"></span>
+    <span class="file-name">{{ page.path | split: '/' | last }}</span>
+  </div>
+
+  <header class="policy-head">
+    <p class="eyebrow"><a href="/">&larr; kembali ke direktori</a></p>
+    <h1>{{ page.title }}</h1>
+    {% if page.updated %}<p class="updated">Terakhir diperbarui: {{ page.updated }}</p>{% endif %}
+  </header>
+
+  <div class="policy-body">
+    {{ content }}
+  </div>
+</article>

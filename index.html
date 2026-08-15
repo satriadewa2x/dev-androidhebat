@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Direktori Aplikasi"
+---
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">// kreatif-vibe-coding</p>
+    <h1>Aplikasi Android, dibangun dari nol,<br>satu APK setiap kali.</h1>
+    <p class="hero-desc">
+      Direktori resmi aplikasi Android dari Kreatif Vibe Coding —
+      lengkap dengan halaman kebijakan privasi untuk tiap aplikasi.
+    </p>
+  </div>
+
+  <div class="terminal" aria-hidden="true">
+    <div class="terminal-bar">
+      <span class="dot dot-red"></span><span class="dot dot-amber"></span><span class="dot dot-green"></span>
+      <span class="terminal-title">zsh — ~/kreatif-vibe-coding</span>
+    </div>
+    <div class="terminal-body">
+      <p class="terminal-line static">
+        <span class="prompt">kreatif-vibe-coding@dev</span><span class="colon">:~$</span> ls apps/
+      </p>
+      <p class="terminal-line static out">{% for app in site.data.apps %}{{ app.slug }}/{% unless forloop.last %}  {% endunless %}{% endfor %}</p>
+      <p class="terminal-line">
+        <span class="prompt">kreatif-vibe-coding@dev</span><span class="colon">:~$</span>
+        <span id="typed"></span><span class="cursor">&#9615;</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="apps" id="apps">
+  <div class="section-head">
+    <p class="eyebrow">/apps</p>
+    <h2>Daftar Aplikasi</h2>
+    <p class="section-desc">Klik kebijakan privasi untuk melihat halaman lengkapnya.</p>
+  </div>
+
+  <div class="app-grid">
+    {% for app in site.data.apps %}
+    <article class="app-card">
+      <div class="app-card-top">
+        <span class="status status-{{ app.status }}">
+          <span class="status-dot"></span>
+          {% if app.status == 'live' %}live{% elsif app.status == 'dev' %}dalam pengembangan{% else %}direncanakan{% endif %}
+        </span>
+        <span class="version">v{{ app.version }}</span>
+      </div>
+
+      <h3 class="app-name">{{ app.name }}</h3>
+      <p class="app-package">{{ app.package }}</p>
+      <p class="app-desc">{{ app.tagline }}</p>
+
+      <div class="app-links">
+        <a class="btn btn-ghost" href="{{ app.playstore }}">Play Store &rarr;</a>
+        <a class="btn btn-outline" href="/kebijakan-privasi-{{ app.slug }}/">Kebijakan Privasi &rarr;</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,28 @@
+# Setiap aplikasi baru cukup tambah satu blok di sini,
+# lalu buat file kebijakan privasinya di _policies/kebijakan-privasi-<slug>.md
+#
+# status: live | dev | planned
+
+- name: "Aplikasi Satu"
+  package: "com.kreatifvibecoding.aplikasisatu"
+  tagline: "Deskripsi singkat aplikasi akan muncul di sini. Ganti dengan tagline aslinya."
+  status: live
+  version: "1.0.0"
+  slug: "aplikasi-satu"
+  playstore: "#"
+
+- name: "Aplikasi Dua"
+  package: "com.kreatifvibecoding.aplikasidua"
+  tagline: "Deskripsi singkat aplikasi akan muncul di sini. Ganti dengan tagline aslinya."
+  status: dev
+  version: "0.9.0-beta"
+  slug: "aplikasi-dua"
+  playstore: "#"
+
+- name: "Aplikasi Tiga"
+  package: "com.kreatifvibecoding.aplikasitiga"
+  tagline: "Deskripsi singkat aplikasi akan muncul di sini. Ganti dengan tagline aslinya."
+  status: planned
+  version: "0.1.0"
+  slug: "aplikasi-tiga"
+  playstore: "#"

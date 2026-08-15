@@ -1,0 +1,29 @@
+title: "Kreatif Vibe Coding — Direktori Aplikasi & Kebijakan Privasi"
+description: "Direktori resmi aplikasi Android dari Kreatif Vibe Coding, lengkap dengan kebijakan privasi tiap aplikasi."
+url: "https://dev.androidhebat.com"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+collections:
+  policies:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: policies
+    values:
+      layout: policy
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
