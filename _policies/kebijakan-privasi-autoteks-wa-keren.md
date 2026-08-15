@@ -71,4 +71,4 @@ Dengan mengunduh dan menggunakan Aplikasi AutoTeks WA Keren, Anda menyatakan tel
 
 ## 10. Kontak Kami
 
-Jika Anda memiliki pertanyaan atau masukan mengenai Kebijakan Privasi ini, silakan hubungi kami:
+Jika Anda memiliki pertanyaan atau masukan mengenai Kebijakan Privasi ini, silakan hubungi kami.
