@@ -3,7 +3,7 @@ title: "Kebijakan Privasi — Aplikasi Dua"
 updated: "15 Agustus 2026"
 ---
 
-Kebijakan privasi ini menjelaskan bagaimana **Aplikasi Dua** (`com.kreatifvibecoding.aplikasidua`), yang dikembangkan oleh Kreatif Vibe Coding, mengumpulkan, menggunakan, dan melindungi data pengguna.
+Kebijakan privasi ini menjelaskan bagaimana **Aplikasi Dua** (`com.kreatifvibecoding.aplikasidua`), yang dikembangkan oleh Work From Cafe, mengumpulkan, menggunakan, dan melindungi data pengguna.
 
 ## Informasi yang Kami Kumpulkan
 

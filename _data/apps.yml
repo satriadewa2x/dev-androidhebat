@@ -3,12 +3,12 @@
 #
 # status: live | dev | planned
 
-- name: "Aplikasi Satu"
-  package: "com.kreatifvibecoding.aplikasisatu"
+- name: "AutoTeks WA Keren"
+  package: "com.nana.autoteksterbaru"
   tagline: "Deskripsi singkat aplikasi akan muncul di sini. Ganti dengan tagline aslinya."
   status: live
   version: "1.0.0"
-  slug: "aplikasi-satu"
+  slug: "autoteks-wa-keren"
   playstore: "#"
 
 - name: "Aplikasi Dua"
