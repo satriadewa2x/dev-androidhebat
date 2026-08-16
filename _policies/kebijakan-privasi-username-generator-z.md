@@ -1,5 +1,5 @@
 ---
-title: "Kebijakan Privasi — Username Generator Z"
+title: "Privacy Policy - Username Generator Z"
 updated: "16 Agustus 2026"
 ---
 

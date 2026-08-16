@@ -19,3 +19,10 @@
   slug: "username-generator-z"
   playstore: "https://play.google.com/store/apps/details?id=com.belladyna.hurufgaul"
 
+- name: "Moodilo"
+  package: "com.belladyna.artikatagaul"
+  tagline: "Simple Mood Tracker & Emotion Tracker for daily emotional awareness"
+  status: live
+  version: "26.08.17"
+  slug: "moodilo"
+  playstore: "https://play.google.com/store/apps/details?id=com.belladyna.artikatagaul"
