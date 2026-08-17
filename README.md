@@ -60,6 +60,7 @@ Dalam 1–2 menit halaman baru otomatis live di:
 ```bash
 bundle install
 bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 Buka `http://localhost:4000`.
